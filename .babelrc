@@ -1,0 +1,9 @@
+{
+  "presets": ["env", "flow"],
+  "plugins": ["transform-inline-environment-variables"],
+  "env": {
+    "test": {
+      "plugins": ["istanbul"]
+    }
+  }
+}
